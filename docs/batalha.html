@@ -1,0 +1,21 @@
+<html>
+	<head>
+        <script src='https://code.jquery.com/jquery-3.5.1.min.js'></script>
+        <script src='batalha.js'></script>
+        <link rel="stylesheet" href="batalha.css"/>
+	</head>
+	<body>
+		<div> 
+            <span>Nome:</span><input id='nome' type='text'/> 
+            <span>Iniciativa:</span><input id='iniciativa' type='number' min='0'/>
+            <span>PV's:</span><input id='pvs' type='number'  />
+            <span>Defesa (CA):</span><input id='ca' type='number' min='0' />
+            <span>Ataque(s):</span><input id='ataques' type='text' />
+            <span>Jogador:<input type='checkbox' id='eJogador'/></span>
+            <button id='add'>Adicionar</button>
+            <button id='clear'>Limpar</button>
+        </div>
+        
+        <div id='initiativesList'></div>
+	</body>
+</html>

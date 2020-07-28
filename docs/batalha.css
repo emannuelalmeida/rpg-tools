@@ -1,0 +1,16 @@
+.cell {
+    margin-right: 20px;
+    margin-bottom: 12px;
+}
+
+.inimigo {
+    background-color: red;
+}
+
+.jogador {
+    background-color: green;
+}
+
+#initiativesList {
+    margin-top: 20px;
+}
